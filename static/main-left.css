@@ -1,0 +1,224 @@
+.main-left::before {
+    content: "";
+    position: absolute;
+    background-image: url("https://static.igem.wiki/teams/5038/nav-left.png");
+    background-size: 100% 100%;
+  
+    font-weight: lighter;
+    height: 10vh;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 5vh;
+    line-height: 5vh;
+  }
+  .leftsidenav {
+    display: flex;
+    flex-direction: column;
+  
+    position: relative;
+    top: 7vh;
+    left: 5%;
+    width: 100%;
+  }
+  
+  .leftsidenav:last-child {
+    margin: -0.5vh 0 8vh 0;
+  }
+  .subnav {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  
+    width: 80%;
+  }
+  
+  .nav-title-1 {
+    font-family: "Career";
+    position: relative;
+  
+    left: 5vh;
+    top: 0;
+  
+    padding-left: 1vw;
+    height: 7vh;
+    line-height: 8vh;
+    width: max-content;
+  
+    background-color: transparent;
+    border-radius: 0.5vw;
+    font-size: 2vh;
+    text-align: left;
+    font-weight: 800;
+    color: rgb(139, 97, 161);
+    align-self: start;
+    font-family: "ARMB";
+  
+    transform-style: preserve-3d;
+  
+    transition: all 1s;
+  
+    padding-right: 2vh !important;
+  }
+  .nav-title-2 {
+    display: block;
+  
+    font-family: "Career";
+    position: relative;
+  
+    left: 30%;
+    top: 0;
+  
+    height: 0;
+    width: max-content;
+  
+    line-height: 8vh;
+  
+    background-color: transparent;
+    border-radius: 0.5vw;
+    font-size: 1.5vh;
+    text-align: left;
+    font-weight: 800;
+    color: transparent;
+  
+    font-family: "ARMB";
+    transition: all 1s;
+    transform-style: preserve-3d;
+  
+    padding-left: 1vw;
+  }
+  
+  .subnav:hover .nav-title-2 {
+    display: block;
+    color: grey;
+    height: 3.2vh;
+    margin-bottom: 20px;
+  }
+  
+  .subnav:hover .nav-title-1 {
+    line-height: 5vh;
+  }
+  
+  .nav-title-2:hover {
+    color: rgba(217, 151, 164) !important;
+    transform: translateX(-1vw);
+  }
+  
+  .subnav:hover .blocks {
+    opacity: 1;
+  }
+  
+  .nav-title-2 > .blocks {
+    opacity: 0;
+  }
+  
+  .nav-title-1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -4%;
+    height: 5vh;
+    width: 0;
+    background-color: rgba(247, 228, 250);
+    transition: all 1s;
+    border-radius: 1vw;
+  
+    transform: translateZ(-1px);
+  }
+  .nav-title-2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -4.5%;
+    height: 5vh;
+    width: 0;
+    background-color: rgba(254, 239, 234, 0.67) !important;
+    transition: all 2s;
+    border-radius: 1vw;
+  
+    transform: translateZ(-1px);
+  }
+  .nav-title-2:hover::before {
+    animation: btn-bg-appear-2 1s 0.2 linear forwards;
+  }
+  .subnav:hover .nav-title-1::before {
+    animation: btn-bg-appear 1s 0.2s linear forwards;
+  }
+  @keyframes btn-bg-appear {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  @keyframes btn-bg-appear-2 {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 140vh;
+    }
+  }
+  
+  .blocks {
+    display: flex;
+    position: absolute;
+    left: -5vh;
+    top: 0;
+    width: 5vh;
+    height: 5vh;
+  }
+  .blocks::before {
+    content: "";
+    position: relative;
+    transition: all 1s;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(192, 162, 210);
+  }
+  .blocks::after {
+    content: "";
+    position: relative;
+    transition: all 1s;
+    top: 50%;
+    width: 50%;
+    height: 50%;
+    background-color: rgb(159, 119, 181);
+  }
+  
+  .subnav:hover .nav-title-1 > .blocks::before {
+    top: 50%;
+    height: 50%;
+  }
+  .subnav:hover .nav-title-1 > .blocks::after {
+    top: 0;
+    height: 100%;
+  }
+  
+  .subnav:hover .nav-title-2 {
+    color: rgba(217, 151, 164) !important;
+  }
+  .nav-title-2 > .blocks::before {
+    background-color: rgb(252, 218, 220) !important;
+  }
+  .nav-title-2 > .blocks::after {
+    background-color: rgb(254, 207, 213) !important;
+  }
+  .nav-title-2:hover {
+    line-height: 5vh;
+  }
+  .nav-title-2:hover .blocks::before {
+    top: 50%;
+    height: 50%;
+  }
+  .nav-title-2:hover .blocks::after {
+    top: 0;
+    height: 100%;
+  }
+  
+  @font-face {
+    font-family: "ARMB";
+    src: url("Arial-Rounded-MT-Bold.ttf");
+  }

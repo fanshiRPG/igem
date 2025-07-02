@@ -1,0 +1,201 @@
+.left-aligned {
+    margin-left: auto;
+  }
+  .bg-dark {
+    background-color: #343a40 !important;
+  }
+  .bg-hero {
+    background-color: #45b06cff;
+  }
+  
+  /* CALLOUT */
+  .bd-callout {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #e9ecef;
+    border-left-width: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  .bd-callout h4 {
+    margin-bottom: 0.25rem;
+  }
+  .bd-callout p:last-child {
+    margin-bottom: 0;
+  }
+  .bd-callout code {
+    border-radius: 0.25rem;
+  }
+  .bd-callout + .bd-callout {
+    margin-top: -0.25rem;
+  }
+  .bd-callout-info {
+    border-left-color: #5bc0de;
+  }
+  .bd-callout-warning {
+    border-left-color: #f0ad4e;
+  }
+  .bd-callout-danger {
+    border-left-color: #d9534f;
+  }
+  
+  /* footer */
+  footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  footer a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .temp-title-1 {
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  
+  .temp-title-2 {
+    margin: 0 auto;
+  }
+  
+  .title-under-pic-1 {
+    font-size: large;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .title-under-pic-2 {
+    text-align: center;
+  }
+  
+  p {
+    text-align: justify;
+  }
+  
+  .description-pic-1 {
+    height: 615px;
+    width: 900px;
+    margin: 0 auto;
+    background-image: url("https://static.igem.wiki/teams/5038/description-figure-1.png");
+    background-size: 100% 100%;
+  }
+  
+  .description-pic-2 {
+    height: 277px;
+    width: 750px;
+    margin: 0 auto;
+    background-image: url("https://static.igem.wiki/teams/5038/description-figure-2.jpg");
+    background-size: 100% 100%;
+  }
+  
+  .description-pic-3 {
+    height: 525px;
+    width: 900px;
+    margin: 0 auto;
+    background-image: url("https://static.igem.wiki/teams/5038/description-figure-3.png");
+    background-size: 100% 100%;
+  }
+  
+  .description-pic-4 {
+    height: 585px;
+    width: 900px;
+    margin: 0 auto;
+    background-image: url("https://static.igem.wiki/teams/5038/description-figure-4.png");
+    background-size: 100% 100%;
+  }
+  
+  .description-pic-5 {
+    height: 420px;
+    width: 960px;
+    margin: 0 auto;
+    background-image: url("https://static.igem.wiki/teams/5038/description-figure-5.png");
+    background-size: 100% 100%;
+  }
+  
+  .description-pic-6 {
+    height: 400px;
+    width: 600px;
+    margin: 0 auto;
+    background-image: url("https://static.igem.wiki/teams/5038/description-figure-6.png");
+    background-size: 100% 100%;
+  }
+  
+  .description-pic-7 {
+    height: 750px;
+    width: 600px;
+    margin: 0 auto;
+    background-image: url("https://static.igem.wiki/teams/5038/description-figure-7.jpg");
+    background-size: 100% 100%;
+  }
+  
+  .description-pic-8 {
+    height: 400px;
+    width: 600px;
+    margin: 0 auto;
+    background-image: url("https://static.igem.wiki/teams/5038/description-figure-8.gif");
+    background-size: 100% 100%;
+  }
+  
+  .description-pic-9 {
+    height: 375px;
+    width: 375px;
+    margin: 0 auto;
+    background-image: url("https://static.igem.wiki/teams/5038/description-figure-9.png");
+    background-size: 100% 100%;
+  }
+  
+  .description-pic-10 {
+    height: 525px;
+    width: 675px;
+    margin: 0 auto;
+    background-image: url("https://static.igem.wiki/teams/5038/description-figure-10.png");
+    background-size: 100% 100%;
+  }
+  
+  .description-pic-11 {
+    height: 255px;
+    width: 750px;
+    margin: 0 auto;
+    background-image: url("https://static.igem.wiki/teams/5038/description-figure-11.png");
+    background-size: 100% 100%;
+  }
+  
+  .description-pic-12 {
+    height: 600px;
+    width: 900px;
+    margin: 0 auto;
+    background-image: url("https://static.igem.wiki/teams/5038/description-figure-12.png");
+    background-size: 100% 100%;
+  }
+  
+  .description-pic-13 {
+    height: 567px;
+    width: 999px;
+    margin: 0 auto;
+    background-image: url("dhttps://static.igem.wiki/teams/5038/description-figure-13.png");
+    background-size: 100% 100%;
+  }
+  
+  .description-pic-14 {
+    height: 567px;
+    width: 999px;
+    margin: 0 auto;
+    background-image: url("https://static.igem.wiki/teams/5038/description-figure-14.png");
+    background-size: 100% 100%;
+  }
+  
+  .description-pic-15 {
+    height: 600px;
+    width: 1000px;
+    margin: 0 auto;
+    background-image: url("https://static.igem.wiki/teams/5038/description-figure-15.png");
+    background-size: 100% 100%;
+  }
+  
+  .description-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
